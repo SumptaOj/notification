@@ -6,12 +6,14 @@
 
 #task: anytime a build is complete, she gets a notification with the list of ticket built e.g. ET-207 
 
-# I want both workflow run to show in github actions.
 
 name: Build Notification
 
 on:
-  push
+  workflow_run:
+    workflows: ["YourBuildWorkflowName"]  # Replace with your build workflow name
+    types:
+      - completed
 
 jobs:
   send-notification:
