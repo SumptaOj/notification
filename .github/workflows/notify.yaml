@@ -4,7 +4,7 @@
 # Her email is "maya.john@ternut.health" using gmail
 # Her username in github is te-maya-john
 
-#task: anythime there is a build, she gets a notification with the list of ticket built e.g. ET-207 
+#task: anytime a build is complete, she gets a notification with the list of ticket built e.g. ET-207 
 
 name: Build Notification
 
