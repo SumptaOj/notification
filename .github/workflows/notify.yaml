@@ -11,10 +11,7 @@
 name: Build Notification
 
 on:
-  workflow_run:
-    workflows: ["YourBuildWorkflowName"]  # Replace with your build workflow name
-    types:
-      - completed
+  push
 
 jobs:
   send-notification:
