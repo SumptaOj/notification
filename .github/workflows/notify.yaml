@@ -1,3 +1,11 @@
+# The code below is sugestion from chatgpt
+# Main.yml is the workflow acting as the build job, that gets the QA notiifed after its built is complete
+# she is part of a team called "Ternut QA" in github
+# Her email is "maya.john@ternut.health" using gmail
+# Her username in github is te-maya-john
+
+#task: anythime there is a build, she gets a notification with the list of ticket built e.g. ET-207 
+
 name: Build Notification
 
 on:
